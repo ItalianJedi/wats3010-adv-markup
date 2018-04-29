@@ -39,6 +39,7 @@ dt {
     height: auto;
 }
 
+
 /* Sidebar Styles */
 #sidebar {
     float: right;
@@ -58,6 +59,10 @@ nav ul li {
     padding: 5px;
 }
 
+nav ul li:hover {
+    background-color: black;
+}
+
 .active {
     font-weight: 900;
     background: #CCC09B;
@@ -68,4 +73,16 @@ nav ul li {
 table {
     width: 100%;
     text-align:left;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+tr.first-row {
+    
+}
+
+tr.odd {
+    background-color: #efefef;
 }
